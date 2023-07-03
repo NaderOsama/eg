@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  background-image: url('../signin/images/building.jpg');
+  background-size: cover;
+  user-select: none;
+
+}
+
+.bodyContainer {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.text-container p {
+  font-size: 50px;
+  color: gray;
+  text-align: center;
+  font-weight: 700;
+}
+
+.text-container h4 {
+  font-size: 40px;
+}
+
+.sec2 {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container {
+  text-align: -webkit-center;
+}
+
+.btn-container button {
+  display: block;
+  cursor: pointer;
+  min-width: 195px;
+  max-width: 195px;
+  color: #fff;
+  font-size: 20px;
+  background-color: #333;
+  border: 0;
+  font-size: 21px;
+  margin: 15px 0 0 0;
+  padding: 15px 35px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.btn-container button:hover {
+  content: "";
+  background: grey;
+  background: -webkit-linear-gradient(left, grey, #505355);
+  background: -o-linear-gradient(left, grey, #505355);
+  background: -moz-linear-gradient(left, grey, #505355);
+  background: linear-gradient(left, grey, #505355);
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  -moz-transition: all .4s;
+  transition: all .4s;
+  opacity: 2
+}
